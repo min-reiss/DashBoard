@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заметки</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="info-grid" id="infoGrid">
+        <div class="info-column">
+            <h2 class="column-title">Ссылки</h2>
+            <div class="cards-container" id="infoContainer">
+                <!-- Сюда JS будет вставлять карточки -->
+            </div>
+        </div>
+    </div>
+    <div class="card-grid" id="cardGrid">
+        <div class="column">
+            <h2 class="column-title">Тренировки</h2>
+            <div class="cards-container" id="trainingContainer">
+                <!-- Сюда JS будет вставлять карточки -->
+            </div>
+        </div>
+
+        <div class="column">
+            <h2 class="column-title">Обычные</h2>
+            <div class="cards-container" id="ordinaryContainer">
+                <div class="card card-usual">
+                    <p class="card-text">Взять кроссовки</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <h2 class="column-title">Важные</h2>
+            <div class="cards-container" id="importantContainer">
+                <!-- Сюда JS будет вставлять карточки -->
+            </div>
+        </div>
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+<script src="script.js"></script>
+</body>
+
+</html>
